@@ -1,0 +1,424 @@
+[
+
+    //BUTTON ITEMS
+	{
+		"name": "Sword",
+		"type": "progressive",
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/items/buttonitems/sword1.png",
+				"codes": "sword, sword1"
+			},
+			{
+				"img": "images/items/buttonitems/sword2.png",
+				"codes": "sword2"
+			}
+		]
+	}, 
+    {
+		"name": "Feather",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/feather.png",
+		"codes": "feather"
+    },
+    {
+        "name": "Bow",
+        "type": "toggle",
+        "loop": true,
+        "img": "images/items/buttonitems/bow.png"
+    },
+	{
+		"name": "Hookshot",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/hookshot.png",
+		"codes": "hookshot, hs"
+	},
+	{
+		"name": "Mushroom/Powder",
+		"type": "progressive",
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/items/buttonitems/mushroom.png",
+				"codes": "mushroom,shroom"
+			},
+			{
+				"img": "images/items/buttonitems/powder.png",
+				"codes": "powder"
+			}
+		]
+	},
+	{
+		"name": "Shovel",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/shovel.png",
+		"codes": "shovel"
+	},
+	{
+		"name": "Boomerang",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/boomerang.png",
+		"codes": "boomerang"
+	},
+	{
+		"name": "Bombs",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/bomb.png",
+		"codes": "bomb, bombs"
+	},
+	{
+		"name": "Ocarina",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/ocarina.png",
+		"codes": "flute,ocarina"
+	},
+	{
+		"name": "Magical Rod",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/rod.png",
+		"codes": "firerod, rod"
+    },
+    
+
+    //KEY ITEMS
+	// {
+	// 	"name": "Clothes",
+	// 	"type": "progressive",
+	// 	"allow_disabled": false,
+	// 	"stages": [{
+	// 			"img": "images/green_mail.png",
+	// 			"codes": "armor, armor1,"
+	// 		},
+	// 		{
+	// 			"img": "images/redblue_mail.png",
+	// 			"codes": "armor2,redmail,bluemail",
+	// 			"inherit_codes": false
+	// 		}
+	// 	]
+	// }, 
+	{
+		"name": "Shield",
+		"type": "progressive",
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/items/keyitems/shield1.png",
+				"codes": "shield,shield1"
+			},
+			{
+				"img": "images/items/keyitems/shield2.png",
+				"codes": "shield2, mirrorshield, mirror"
+			}
+		]
+	}, 
+	{
+		"name": "Zora's Flippers",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/flippers.png",
+		"codes": "flippers"
+	}, 
+	{
+		"name": "Pegasus Boots",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/boots.png",
+		"codes": "boots"
+	}, 
+	{
+		"name": "Bracelet",
+		"type": "progressive",
+		"loop": true,
+		"stages": [{
+				"img": "images/items/keyitems/powerbracelet.png",
+				"codes": "bracelet,lift1"
+			},
+			{
+				"img": "images/items/keyitems/powerbracelet2.png",
+				"codes": "bracelet2,lift2"
+			}
+		]
+	}, 
+	{
+		"name": "Trade",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/items/trade/yoshi.png",
+				"codes": "yoshi",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/ribbon.png",
+				"codes": "ribbon",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/food.png",
+				"codes": "food",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/bananas.png",
+				"codes": "bananas",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/stick.png",
+				"codes": "stick",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/beehive.png",
+				"codes": "honey,beehive,hive",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/pineapple.png",
+				"codes": "pineapple",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/hibiscus.png",
+				"codes": "flower",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/letter.png",
+				"codes": "letter",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/broom.png",
+				"codes": "broom",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/hook.png",
+				"codes": "hook",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/necklace.png",
+				"codes": "necklace",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/scale.png",
+				"codes": "scale",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/trade/lens.png",
+				"codes": "lens",
+				"inherit_codes": false
+			}
+		]
+    },
+    {
+		"name": "Full Moon Cello",
+		"type": "toggle",
+		"img": "images/items/instruments/cello.png",
+		"codes": "cello,tc"
+    },
+    {
+		"name": "Conch Horn",
+		"type": "toggle",
+		"img": "images/items/instruments/conch.png",
+		"codes": "conch,bg"
+	}, 
+	{
+		"name": "Sea Lily's Bell",
+		"type": "toggle",
+		"img": "images/items/instruments/bell.png",
+		"codes": "bell,kc"
+	}, 
+	{
+		"name": "Surf Harp",
+		"type": "toggle",
+		"img": "images/items/instruments/harp.png",
+		"codes": "harp,at"
+	}, 
+	{
+		"name": "Wind Marimba",
+		"type": "toggle",
+		"img": "images/items/instruments/marimba.png",
+		"codes": "marimba,cm"
+	}, 
+	{
+		"name": "Coral Triangle",
+		"type": "toggle",
+		"img": "images/items/instruments/triangle.png",
+		"codes": "triangle,fs"
+	},
+	{
+		"name": "Organ of Evening Calm",
+		"type": "toggle",
+		"img": "images/items/instruments/organ.png",
+		"codes": "organ,et"
+	}, 
+	{
+		"name": "Thunder Drum",
+		"type": "toggle",
+		"img": "images/items/instruments/drum.png",
+		"codes": "drum,tr"
+    },
+    {
+        "name": "Golden Leaves",
+        "type": "consumable",
+        "img": "images/items/keyitems/goldleaf.png",
+        "codes": "goldleaf",
+        "max_quantity": 5
+    },
+    
+    //DUNGEON KEYS
+
+	{
+		"name": "Tail Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/tailkey.png",
+		"codes": "tail,tailkey"
+    },
+	{
+		"name": "Slime Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/slimekey.png",
+		"codes": "slime,slimekey"
+	},
+	{
+		"name": "Angler Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/anglerkey.png",
+		"codes": "angler,anglerkey"
+	},
+	{
+		"name": "Face Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/facekey.png",
+		"codes": "face,facekey"
+	},
+	{
+		"name": "Bird Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/keyitems/eaglekey.png",
+		"codes": "eagle, eaglekey, bird"
+	},
+    
+    //OCARINA SONGS
+
+	{
+		"name": "Ballad of the Wind Fish",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/marin.png",
+		"codes": "marin,ballad"
+	}, 
+	{
+		"name": "Manbo's Mambo",
+		"type": "toggle",
+		"img": "images/manbo.png",
+		"codes": "fish,manbo, mambo"
+	}, 
+	{
+		"name": "Frog's Song of Soul",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/mamu.png",
+		"codes": "frog,soul"
+    },
+    
+    //SIDE QUEST ITEMS AND MISC
+
+	{
+		"name": "Piece of Heart",
+		"type": "consumable",
+		"img": "images/items/heartpiece.png",
+		"codes": "poh,heartpiece",
+		"max_quantity": 32
+    },
+    {
+        "name": "Heart Containers",
+        "type": "consumable",
+        "img": "images/items/heartcontainer.png",
+        "codes": "heartcontainer",
+        "max_quantity": 12
+    },
+	{
+		"name": "Shells",
+		"type": "consumable",
+		"img": "images/items/shell.png",
+		"codes": "shells,shell",
+		"max_quantity": 50
+    },
+    {
+        "name": "Figurines",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": false,
+        "stages": [
+            {
+                "img": "images/items/figurines/ciaociao.png",
+                "codes": "ciaociao",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/goomba.png",
+                "codes": "goomba",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/cheepcheep.png",
+                "codes": "cheepcheep",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/spiny.png",
+                "codes": "spiny",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/boo.png",
+                "codes": "boo",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/blooper.png",
+                "codes": "blooper",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/shyguy.png",
+                "codes": "shyguy",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/piranhaplant.png",
+                "codes": "piranhaplant",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/pokey.png",
+                "codes": "pokey",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/figurines/bowwow.png",
+                "codes": "bowwow",
+                "inherit_codes": false
+            }
+        ]
+    }
+]
