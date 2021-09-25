@@ -1,5 +1,4 @@
 [
-
     //BUTTON ITEMS
 	{
 		"name": "Sword",
@@ -27,7 +26,8 @@
         "name": "Bow",
         "type": "toggle",
         "loop": true,
-        "img": "images/items/buttonitems/bow.png"
+        "img": "images/items/buttonitems/bow.png",
+		"codes": "bow"
     },
 	{
 		"name": "Hookshot",
@@ -36,20 +36,34 @@
 		"img": "images/items/buttonitems/hookshot.png",
 		"codes": "hookshot, hs"
 	},
+	// {
+	// 	"name": "Mushroom/Powder",
+	// 	"type": "progressive",
+	// 	"loop": true,
+	// 	"stages": [
+	// 		{
+	// 			"img": "images/items/buttonitems/mushroom.png",
+	// 			"codes": "mushroom,shroom"
+	// 		},
+	// 		{
+	// 			"img": "images/items/buttonitems/powder.png",
+	// 			"codes": "powder"
+	// 		}
+	// 	]
+	// },
 	{
-		"name": "Mushroom/Powder",
-		"type": "progressive",
+		"name": "Mushroom",
+		"type": "toggle",
 		"loop": true,
-		"stages": [
-			{
-				"img": "images/items/buttonitems/mushroom.png",
-				"codes": "mushroom,shroom"
-			},
-			{
-				"img": "images/items/buttonitems/powder.png",
-				"codes": "powder"
-			}
-		]
+		"img": "images/items/buttonitems/mushroom.png",
+		"codes": "mushroom"
+	},
+	{
+		"name": "Powder",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/powder.png",
+		"codes": "powder"
 	},
 	{
 		"name": "Shovel",
@@ -69,7 +83,7 @@
 		"name": "Bombs",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/items/buttonitems/bomb.png",
+		"img": "images/items/buttonitems/bombs.png",
 		"codes": "bomb, bombs"
 	},
 	{
@@ -86,24 +100,50 @@
 		"img": "images/items/buttonitems/rod.png",
 		"codes": "firerod, rod"
     },
+	{
+		"name": "Bottle",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/bottle.png",
+		"codes": "bottle1"
+	},
+	{
+		"name": "Bottle",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/bottle.png",
+		"codes": "bottle2"
+	},
+	{
+		"name": "Bottle",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/buttonitems/bottle.png",
+		"codes": "bottle3"
+	},
     
 
-    //KEY ITEMS
-	// {
-	// 	"name": "Clothes",
-	// 	"type": "progressive",
-	// 	"allow_disabled": false,
-	// 	"stages": [{
-	// 			"img": "images/green_mail.png",
-	// 			"codes": "armor, armor1,"
-	// 		},
-	// 		{
-	// 			"img": "images/redblue_mail.png",
-	// 			"codes": "armor2,redmail,bluemail",
-	// 			"inherit_codes": false
-	// 		}
-	// 	]
-	// }, 
+    // KEY ITEMS
+	{
+		"name": "Clothes",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [{
+				"img": "images/green_mail.png",
+				"codes": "greenmail, armor1,"
+			},
+			{
+				"img": "images/redblue_mail.png",
+				"codes": "armor2,redmail",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/blue_mail.png",
+				"codes": "armor3, bluemail",
+				"inherit_codes": true
+			}
+		]
+	}, 
 	{
 		"name": "Shield",
 		"type": "progressive",
@@ -271,13 +311,6 @@
 		"img": "images/items/instruments/drum.png",
 		"codes": "drum,tr"
     },
-    {
-        "name": "Golden Leaves",
-        "type": "consumable",
-        "img": "images/items/keyitems/goldleaf.png",
-        "codes": "goldleaf",
-        "max_quantity": 5
-    },
     
     //DUNGEON KEYS
 
@@ -295,6 +328,13 @@
 		"img": "images/items/keyitems/slimekey.png",
 		"codes": "slime,slimekey"
 	},
+    {
+        "name": "Golden Leaves",
+        "type": "consumable",
+        "img": "images/items/keyitems/goldleaf.png",
+        "codes": "goldleaf",
+        "max_quantity": 5
+    },
 	{
 		"name": "Angler Key",
 		"type": "toggle",
@@ -313,8 +353,8 @@
 		"name": "Bird Key",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/items/keyitems/eaglekey.png",
-		"codes": "eagle, eaglekey, bird"
+		"img": "images/items/keyitems/birdkey.png",
+		"codes": "eagle, birdkey, bird"
 	},
     
     //OCARINA SONGS
@@ -357,12 +397,31 @@
         "max_quantity": 12
     },
 	{
+		"name": "Chamber Stones",
+		"type": "consumable",
+		"img": "images/items/chamberstone.png",
+		"codes": "chamberstones, stones",
+		"max_quantity": 14
+	},
+	{
+		"name": "Secret Medicine",
+		"type": "toggle",
+		"img": "images/items/medicine.png",
+		"codes": "medicine"
+	},
+	{
 		"name": "Shells",
 		"type": "consumable",
 		"img": "images/items/shell.png",
 		"codes": "shells,shell",
 		"max_quantity": 50
     },
+	{
+		"name": "Seashell Sensor",
+		"type": "toggle",
+		"img": "images/items/keyitems/sensor.png",
+		"codes": "sensor"
+	},
     {
         "name": "Figurines",
         "type": "progressive",

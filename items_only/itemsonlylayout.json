@@ -1,0 +1,45 @@
+{
+    "item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,1",
+        "item_size": 70,
+        "rows": [
+            ["sword", "shield", "lift1", "boots", "flippers"],
+            ["powder", "feather", "bombs", "shovel"],
+            ["ocarina", "hookshot", "bow", "rod"],
+            ["boomerang", "bottle1", "bottle2", "bottle3"],
+            ["shells", "sensor", "yoshi", "medicine", "mushroom"],
+            ["tail", "slime", "angler", "face", "bird"],
+            ["ballad", "manbo", "frog","ciaociao", "stones"]
+        ]
+    },
+    "instrument_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 90,
+        "rows": [
+            ["", "drum","cello",""],
+            ["organ","","","conch"],
+            ["triangle","","","bell"],
+            ["","marimba","harp",""]
+        ]
+    },
+    "tracker_default": {
+        "type": "array",
+        "width": 500,
+        "margin": "1,1",
+        "background": "#212121",
+        "content": [
+            {
+                "type": "layout",
+                "key": "item_grid"
+            },
+            {
+                "type": "layout",
+                "key": "instrument_grid"
+            }
+        ]
+    }
+}

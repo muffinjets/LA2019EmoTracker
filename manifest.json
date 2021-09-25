@@ -1,16 +1,16 @@
 {
     "name": "Link's Awakening Remake Randomizer",
-    "game_name": "Link's Awakening Remake Randomizer",
+    "game_name": "Link's Awakening Randomizer",
     "package_version": "1.0",
     "package_uid": "las_maptracker_muffinjets",
     "author": "MuffinJets",
     "platform": "Switch",
     "variants": {
-        "simple": {
-            "display_name": "Map Tracker"
-        },
         "items_only": {
             "display_name": "Items Only"
         }
+        // "simple": {
+        //     "display_name": "Map Tracker"
+        // },
     }
 }
