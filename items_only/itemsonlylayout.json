@@ -6,9 +6,9 @@
         "item_size": 70,
         "rows": [
             ["sword", "shield", "lift1", "boots", "flippers"],
-            ["powder", "feather", "bombs", "shovel"],
-            ["ocarina", "hookshot", "bow", "rod"],
-            ["boomerang", "bottle1", "bottle2", "bottle3"],
+            ["powder", "feather", "bombs", "shovel", "bowwowfollow"],
+            ["ocarina", "hookshot", "bow", "rod", "marinfollow"],
+            ["boomerang", "bottle1", "bottle2", "bottle3", "flyingrooster"],
             ["shells", "sensor", "yoshi", "medicine", "mushroom"],
             ["tail", "slime", "angler", "face", "bird"],
             ["ballad", "manbo", "frog","ciaociao", "stones"]

@@ -363,7 +363,7 @@
 		"name": "Ballad of the Wind Fish",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/marin.png",
+		"img": "images/marinsong.png",
 		"codes": "marin,ballad"
 	}, 
 	{
@@ -408,6 +408,24 @@
 		"type": "toggle",
 		"img": "images/items/medicine.png",
 		"codes": "medicine"
+	},
+	{
+		"name": "Marin Follower",
+		"type": "toggle",
+		"img": "images/marinfollow.png",
+		"codes": "marinfollow"
+	},
+	{
+		"name": "BowWow Follower",
+		"type": "toggle",
+		"img": "images/bowwowfollow.png",
+		"codes": "bowwowfollow"
+	},
+	{
+		"name": "Flying Rooster Follower",
+		"type": "toggle",
+		"img": "images/flyingrooster.png",
+		"codes": "flyingrooster"
 	},
 	{
 		"name": "Shells",
